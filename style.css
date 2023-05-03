@@ -4,12 +4,12 @@ body {
   max-height: 2000px;
   font-family: "Kanit", sans-serif;
   box-sizing: border-box;
-
-  background-color: rgb(165, 167, 177);
+  background-color: #ffff;
 }
 h5,
 P {
-  font-family: "Nerko One", cursive;
+  font-family:roboto;
+  font-size: 15px;
 }
 .form-control {
   width: 450px;
@@ -19,6 +19,7 @@ P {
   width: 50px;
   height: 45px;
 }
+
 
 .row {
   background-color: white;
@@ -40,26 +41,26 @@ P {
   transition: 0.2s;
 } */
 
-.btn:hover {
+.btn {
   color: black;
-  background-color: rgb(255, 94, 0);
-  border: 1px solid silver;
+  background-color: white;
+  border: 1px solid black;
 }
 strong {
-  color: white;
+  color: orangered;
 }
 nav {
   position: top-fixed;
 }
 .produkk {
-  background-color: rgb(165, 167, 177);
+  background-color: wheat;
 }
 footer {
-  background-color: rgb(165, 167, 177);
+  background-color: wheat;
   padding-left: 100%;
 }
 .bobo {
-  background-color: rgb(165, 167, 177);
+  background-color: wheat;
 }
 i {
   color: orangered;
