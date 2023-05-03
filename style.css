@@ -41,11 +41,11 @@ P {
   transition: 0.2s;
 } */
 
-.btn {
+/* .btn:hover{
   color: black;
   background-color: white;
   border: 1px solid black;
-}
+} */
 strong {
   color: orangered;
 }
@@ -53,14 +53,14 @@ nav {
   position: top-fixed;
 }
 .produkk {
-  background-color: wheat;
+  background-color: white;
 }
 footer {
-  background-color: wheat;
+  background-color: white;
   padding-left: 100%;
 }
 .bobo {
-  background-color: wheat;
+  background-color: white;
 }
 i {
   color: orangered;
