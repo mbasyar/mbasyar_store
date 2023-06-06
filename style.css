@@ -6,6 +6,21 @@ body {
   box-sizing: border-box;
   background-color: whitesmoke;
 }
+
+
+.navbar-nav .nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+.nav-link{
+  color: blue;
+}
+.nav-link:hover{
+  border-bottom: 1px solid orangered;
+  color: orangered;
+}
 h5,
 P {
   font-family:roboto;
@@ -30,6 +45,7 @@ P {
 }
 .card {
   margin-top: 5px;
+  border: 1px solid transparent;
   /* box-sizing: border-box;
   box-shadow: 5px 5px 6px 6px rgba(0, 0, 0, 0.159); */
 }
@@ -43,9 +59,10 @@ P {
 
 .btn{
   color: white;
-  background-color: darkslategray;
-  border: 1px solid black;
+  background-color: orangered;
+  border: 1px solid transparent;
 }
+
 strong {
   color: orangered;
 }
@@ -68,7 +85,13 @@ i {
 h2 {
   color: rgb(244, 27, 27);
 }
-.btn-warning:hover {
-  background-color: rgb(254, 231, 231);
-  color: white;
+
+.sub-judul {
+  padding: 10px 10px;
+}
+.kategori {
+  font-weight: 600;
+}
+.produk {
+  font-weight: 600;
 }
